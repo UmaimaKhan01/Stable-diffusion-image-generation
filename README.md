@@ -24,72 +24,10 @@ Results are averaged and visualized with Matplotlib as speed_comparison.png.
 3. FID Evaluation
 
 Quality is quantified using the Fréchet Inception Distance (FID) metric.
-The script evaluate_fid.py uses a pre-trained InceptionV3 model to extract 2048-dimensional features and computes:
+The script evaluate_fid.py uses a pre-trained InceptionV3 model to extract 2048-dimensional features and computes the following formula:
 
-𝐹
-𝐼
-𝐷
-=
-∣
-∣
-𝜇
-1
-−
-𝜇
-2
-∣
-∣
-2
-+
-𝑇
-𝑟
-(
-Σ
-1
-+
-Σ
-2
-−
-2
-(
-Σ
-1
-Σ
-2
-)
-1
-/
-2
-)
-FID=∣∣μ
-1
-	​
+FID = ||μ₁ − μ₂||² + Tr(Σ₁ + Σ₂ − 2(Σ₁Σ₂)¹ᐟ²)
 
-−μ
-2
-	​
-
-∣∣
-2
-+Tr(Σ
-1
-	​
-
-+Σ
-2
-	​
-
-−2(Σ
-1
-	​
-
-Σ
-2
-	​
-
-)
-1/2
-)
 
 A lower FID indicates higher similarity between generated and reference image distributions.
 
@@ -99,7 +37,7 @@ Avg Time (s/img)	15.47	705.58	×45.6 faster
 Images per second	0.0646	0.0014	–
 FID (Turbo vs Base)	247.09	–	–
 
-SDXL Turbo generated images ~45× faster than SDXL Base.
+SDXL Turbo generated images approximately 45× faster than SDXL Base.
 
 Turbo maintained comparable semantic accuracy with minor loss in fine detail.
 

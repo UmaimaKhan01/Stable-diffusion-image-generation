@@ -21,6 +21,9 @@ data/generated_images/sdxl_turbo/
 The evaluate_speed.py script measures per-image generation time using Python’s time module.
 Results are averaged and visualized with Matplotlib as speed_comparison.png.
 
+![Speed Comparison](https://github.com/UmaimaKhan01/Stable-diffusion-image-generation/blob/main/evaluation_results/speed_comparison.png?raw=true)
+
+
 3. FID Evaluation
 
 Quality is quantified using the Fréchet Inception Distance (FID) metric.

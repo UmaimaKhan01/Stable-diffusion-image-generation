@@ -1,0 +1,13 @@
+diffusers==0.25.1
+transformers==4.35.2
+accelerate==0.24.1
+safetensors==0.4.1
+Pillow==10.1.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+scipy==1.11.4
+matplotlib==3.8.2
+pandas==2.1.4
+tqdm==4.66.1
+pytorch-fid==0.3.0
+xformers==0.0.22.post7   # optional, may fail on Windows

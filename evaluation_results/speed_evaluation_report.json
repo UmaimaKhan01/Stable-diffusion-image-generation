@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "total_prompts": 10,
+    "turbo_avg_time": 15.469413161277771,
+    "base_avg_time": 705.5815022945404,
+    "speed_improvement": 45.611394235737095,
+    "time_saved_per_image": 690.1120891332627,
+    "total_time_saved": 6901.120891332626
+  },
+  "detailed_analysis": {
+    "turbo_stats": {
+      "mean_time": 15.469413161277771,
+      "median_time": 12.999968886375427,
+      "std_time": 8.200830665037806,
+      "min_time": 9.678510189056396,
+      "max_time": 39.793734550476074,
+      "images_per_second": 0.06464369330461403,
+      "total_time": 154.6941316127777
+    },
+    "base_stats": {
+      "mean_time": 705.5815022945404,
+      "median_time": 711.5523681640625,
+      "std_time": 53.09043527094538,
+      "min_time": 590.9689073562622,
+      "max_time": 770.9835722446442,
+      "images_per_second": 0.0014172707146488607,
+      "total_time": 7055.815022945404
+    },
+    "comparison": {
+      "speed_improvement_mean": 45.611394235737095,
+      "speed_improvement_median": 54.73492855123696,
+      "time_saved_per_image": 690.1120891332627,
+      "total_time_saved": 6901.120891332626,
+      "efficiency_ratio": 2.1924346246282638
+    }
+  },
+  "visualizations": {
+    "speed_comparison_plot": "evaluation_results\\speed_comparison.png"
+  },
+  "raw_data": {
+    "turbo_times": [
+      39.793734550476074,
+      14.093377113342285,
+      13.893274784088135,
+      9.678510189056396,
+      12.45277452468872,
+      12.963798522949219,
+      13.036139249801636,
+      14.156268835067749,
+      12.270049571990967,
+      12.356204271316528
+    ],
+    "base_times": [
+      590.9689073562622,
+      707.2145845890045,
+      699.4861831665039,
+      642.5928208827972,
+      770.9835722446442,
+      752.2469658851624,
+      715.8901517391205,
+      679.2485666275024,
+      741.959466457367,
+      755.2238039970398
+    ],
+    "turbo_avg_time": 15.469413161277771,
+    "base_avg_time": 705.5815022945404,
+    "turbo_images_per_second": 0.06464369330461403,
+    "base_images_per_second": 0.0014172707146488607,
+    "speed_improvement": 45.611394235737095
+  }
+}

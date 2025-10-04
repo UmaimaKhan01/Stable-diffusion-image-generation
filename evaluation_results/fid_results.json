@@ -1,0 +1,8 @@
+{
+  "fid_score": 247.0920380734006,
+  "reference_model": "SDXL Base",
+  "evaluated_model": "SDXL Turbo",
+  "interpretation": "Lower FID means Turbo generates images more similar to Base quality",
+  "note": "Small sample size (10 images) may affect FID reliability",
+  "sample_size": 10
+}
